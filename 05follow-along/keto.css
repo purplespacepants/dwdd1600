@@ -102,9 +102,14 @@ main a:hover {
 
 figure.wrapped {
     width: 30%;
-    margin: 0;
+    margin: 0 0 0 20%;
     float: right;
 
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
 }
 
 /* footer stuff here */
