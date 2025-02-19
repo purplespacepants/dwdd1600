@@ -100,6 +100,13 @@ main a:hover {
     background-color:#eee;
 }
 
+figure.wrapped {
+    width: 30%;
+    margin: 0;
+    float: right;
+
+}
+
 /* footer stuff here */
 footer {
     border-top: solid #ccc 2px;
