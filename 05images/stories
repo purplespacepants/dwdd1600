@@ -20,6 +20,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     
     </head>
+    <header>
+        <h1>Zee Art and Illustration</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="stories.html">Stories</a>
+            </li>
+            <li>
+                <a href="aboutme.html">About Me</a>
+            </li>
+        </ul>
+    </nav>
 <body>
     
 </body>
