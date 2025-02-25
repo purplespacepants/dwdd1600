@@ -160,3 +160,11 @@ nav a {
 nav a:hover {
     background-color: #148259;
 }
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
