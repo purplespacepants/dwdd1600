@@ -82,8 +82,12 @@ main h2 {
 }
 
 main p {
+    background-color: #1fbf84;
+    font-family: "Handjet";
+    font-weight: 300;
+    font-style: normal;
     color: #0b362f;
-
+    text-align: center;
 }
 
 body {
