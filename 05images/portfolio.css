@@ -1,0 +1,122 @@
+
+.handjet-heading2 {
+    font-family: "Handjet", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
+}
+
+.nabla-heading {
+    font-family: "Nabla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+}
+
+.nabla-heading1 {
+    font-family: "Nabla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+}
+/* this is a text box i made */
+.div1 {
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    border-style: double;
+    border-color: #85ff60;
+}
+
+header {
+    margin: 1rem 0;
+    background-color: #60c2ff;
+    letter-spacing: .5px;
+    font-family: "Nabla";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+}
+
+header span {
+    margin: 0;
+    color: #0b362f;
+    letter-spacing: .5px;
+}
+
+
+main {
+    background-color: #60c2ff;
+    padding: 2rem 0;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #0b362f;
+    font-weight: 700;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #0b362f;
+    font-weight: 700;
+    text-align: center;
+}
+
+main p {
+    color: #0b362f;
+
+}
+
+body {
+    background-color: #1fbf84;
+    font-family: "Handjet";
+    font-weight: 300;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+}
+
+nav {
+    background-color: #1fbf84;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #0b362f;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav a:hover {
+    background-color: #148259;
+}
