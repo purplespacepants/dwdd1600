@@ -46,7 +46,7 @@
 .div1 {
     padding: 10px;
     display: flex;
-    margin: 1.5rem 0;
+    margin: calc(5vw + 10px); /* Flexible margin based on viewport width */
     text-align: left;
     border-style: double;
     border-color: #85ff60;
