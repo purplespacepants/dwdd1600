@@ -39,6 +39,12 @@
     text-align: left;
     border-style: double;
     border-color: #85ff60;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 header {
