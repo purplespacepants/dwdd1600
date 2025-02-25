@@ -44,7 +44,6 @@
 
 /* this is a text box i made */
 .div1 {
-    width: 700px;
     padding: 10px;
     display: flex;
     margin: auto;
@@ -61,7 +60,6 @@
 
 /* this is the center aligned version */
 .div2 {
-    width: 700px;
     padding: 10px;
     display: flex;
     margin: auto;
