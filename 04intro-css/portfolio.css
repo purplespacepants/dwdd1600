@@ -1,6 +1,6 @@
 
 
-h1 {
+.nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
     font-family: "Nabla", serif;
     
     font-size: 2em;
@@ -75,7 +75,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-header {
+h1 {
     margin: 1rem 0;
     background-color: #60c2ff;
     letter-spacing: .5px;
