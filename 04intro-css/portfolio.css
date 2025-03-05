@@ -60,12 +60,17 @@
     font-size: 1.5rem;
 }
 
-div.div1 p {
+.div1 p {
     padding: 1rem;
     margin: ;
 }
 
-div.div1 dl
+
+.div1 dl {
+    padding: 1rem;
+    margin: 0;
+}
+
 
 
 /* display flex and display flex wrap you gotta add em to the div1 */
