@@ -1,7 +1,28 @@
 
+
+.nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
+    font-family: "Nabla", serif;
+    background-color: #60c2ff;
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+}
+
+.nabla-heading2 {
+    font-family: "Nabla", serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+}
+
 .handjet-heading2 {
     font-family: "Handjet", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-size: 45px;
     font-style: normal;
@@ -11,38 +32,70 @@
         "ELSH" 2;
 }
 
-.nabla-heading {
-    font-family: "Nabla", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+.handjet-heading3 {
+    font-family: "Handjet", serif;
+    font-weight: 500;
+    font-size: 30px;
     font-style: normal;
-    font-variation-settings:
-        "EDPT" 80,
-        "EHLT" 12;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
 }
 
-.nabla-heading1 {
-    font-family: "Nabla", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: italic;
-    font-variation-settings:
-        "EDPT" 80,
-        "EHLT" 12;
-}
 /* this is a text box i made */
 .div1 {
-    width: 500px;
+    padding: 10px;
+    display: flex;
+    margin: calc(5vw + 10px); /* Flexible margin based on viewport width */
+    text-align: left;
+    border-style: double;
+    border-color: #85ff60;
+    border-radius: 15px 0px 15px 0px;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #0b362f;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.div1 p {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.div1 dl {
+    padding: 1rem;
+    margin: 0;
+}
+
+.div1 dt {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #601561;
+}
+
+/* display flex and display flex wrap you gotta add em to the div1 */
+
+/* this is the center aligned version */
+.div2 {
     padding: 10px;
     display: flex;
     margin: auto;
     text-align: left;
     border-style: double;
     border-color: #85ff60;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
-
-header {
+h1 {
     margin: 1rem 0;
     background-color: #60c2ff;
     letter-spacing: .5px;
@@ -83,8 +136,14 @@ main h2 {
 }
 
 main p {
+    background-color: #1fbf84;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
     color: #0b362f;
-
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 body {
@@ -99,6 +158,7 @@ body {
 nav {
     background-color: #1fbf84;
     text-align: center;
+
 }
 
 nav ul {
@@ -106,11 +166,10 @@ nav ul {
     padding: 0 2vw;
     margin: 0;
     display: flex;
-
 }
 
 nav a {
-    font-size: 1.1rem;
+    font-size: 2.7rem;
     text-decoration: none;
     color: #0b362f;
     font-weight: 700;
@@ -122,3 +181,10 @@ nav a:hover {
     background-color: #148259;
 }
 
+dl {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
