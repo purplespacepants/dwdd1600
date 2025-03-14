@@ -181,6 +181,11 @@ nav a:hover {
     background-color: #148259;
 }
 
+nav .active a {
+    background-color: #7f2981;
+    color: #ffd214;
+}
+
 dl {
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -188,3 +193,14 @@ dl {
     margin: 0 auto;
     max-width: 800px;
 }
+
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: 2rem;
+    padding: 0;
+}
+
