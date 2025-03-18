@@ -115,7 +115,6 @@ header span {
     letter-spacing: .5px;
 }
 
-
 main {
     background-color: #60c2ff;
     padding: 2rem 0;
@@ -153,6 +152,13 @@ body {
     font-style: normal;
     color: #0b362f;
     text-align: center;
+}
+
+figure.index {
+    width: 100%;
+    margin: 0;
+    float: right;
+    text-align: left;
 }
 
 nav {
@@ -209,7 +215,6 @@ div.gallery img {
     height: auto;       /* Maintains aspect ratio */
    
 }
-
 
 div.gallery figcaption {
     font-family: "Handjet";
