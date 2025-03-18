@@ -204,3 +204,15 @@ div.gallery figure {
     padding: 0;
 }
 
+div.gallery img {
+    max-width: 100%;    /* Ensures images resize within their container */
+    height: auto;       /* Maintains aspect ratio */
+   
+}
+
+
+div.gallery figcaption {
+    font-family: "Handjet";
+    font-weight: 400;
+    font-size: 1.3rem;
+}
