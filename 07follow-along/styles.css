@@ -21,7 +21,32 @@ header p {
     letter-spacing: 2px;
 }
 
+
 /* navigation stuff here */
+
+/*small screen format*/
+@media only screen and (max-width: 600px) {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2vw;
+    }
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: .8rem;
+    font-weight: 700;
+    text-transform:uppercase;
+    text-align:center;
+    border-bottom: 1px solid #aaa;
+    color: #8C501B;
+}
+}
+ /*end to media query.*/
+
+/*large screen format*/
+@media only screen and (min-width: 601px) {
+    
 nav {
     border-top: solid 1px #E0E6E6;
     
@@ -50,6 +75,11 @@ nav .active a {
 nav a:hover {
     color: #000;
 }
+} /*end to media query.*/
+
+
+
+
 
 
 /* main stuff here */
