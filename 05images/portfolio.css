@@ -32,6 +32,10 @@
         "ELSH" 2;
 }
 
+p#aboutme {
+padding: 9rem;
+}
+
 .handjet-heading3 {
     font-family: "Handjet", serif;
     font-weight: 500;
@@ -47,7 +51,7 @@
 .div1 {
     padding: 10px;
     display: flex;
-    margin: calc(5vw + 10px); /* Flexible margin based on viewport width */
+    margin: calc(5vw + 10px); /* Flexible margin based on viewport width . also chatgpt gave me this i'm pretty sure so i take full responsibility for it being here but no responsibility for it being stupid*/
     text-align: left;
     border-style: double;
     border-color: #85ff60;
@@ -58,6 +62,7 @@
     color: #0b362f;
     text-align: left;
     font-size: 1.5rem;
+    clear: both;
 }
 
 .div1 p {
@@ -135,7 +140,7 @@ main h2 {
 }
 
 main p {
-    background-color: #1fbf84;
+    background-color: #1fbf84; /*on the index page, this is the text describing the headers*/
     font-family: "Handjet";
     font-weight: 400;
     font-style: normal;
@@ -145,8 +150,8 @@ main p {
     padding: 1rem;
 }
 
-body {
-    background-color: #1fbf84;
+body { 
+    background-color: #1fbf84; /*this controls the color of the line around the edge of the page apparently*/
     font-family: "Handjet";
     font-weight: 300;
     font-style: normal;
@@ -159,8 +164,15 @@ figure.index {
     margin: 0;
     float: right;
     text-align: left;
+} /*wish this worked but I couldn't get it to overwrite the way the index was already, so i'm going to fulfill this piece of my assignment on the About Me page instead*/
+
+figure.about{
+    float:right;
+    margin:0;
+    padding: 10px;
 }
 
+/*navigation stuff*/
 nav {
     background-color: #1fbf84;
     text-align: center;
@@ -191,6 +203,8 @@ nav .active a {
     background-color: #7f2981;
     color: #ffd214;
 }
+
+
 
 dl {
     display: block;
