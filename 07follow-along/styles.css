@@ -41,6 +41,10 @@ nav a {
     border-bottom: 1px solid #aaa;
     color: #8C501B;
 }
+nav .active a{
+    background-color:#8C501B;
+    color:white;
+}
 }
  /*end to media query.*/
 
