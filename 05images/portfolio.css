@@ -208,13 +208,19 @@ dl {
 
 /*About Me page stuff*/
 p#aboutme {
-    padding: 9rem;
+    padding: 9rem 2rem;
     }
 figure.about{
     float:right;
+    height:auto;
     margin:0;
     padding: 10px;
 }
+figure.about img {
+        width: 100%;
+        height: auto;
+        margin:0;
+    }
 figure.about figcaption{
     font-family: "Handjet";
     font-weight: 400;
