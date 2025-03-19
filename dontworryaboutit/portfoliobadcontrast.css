@@ -1,20 +1,5 @@
 /* THIS IS THE 05 IMAGES ONE NOT THE ORIGINAL 04 IMAGES ONE!!!!!!!!!!!!*/
 
-/*which has which color:
-
-sky blue
-    -nabla 
-    -h1 
-    -main
-
-dark green
-    -main p
-    -body
-
-nav active has their own ones
-*/
-
-
 .nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
     font-family: "Nabla", serif;
     background-color: #60c2ff;
@@ -76,14 +61,18 @@ nav active has their own ones
     font-size: 1.5rem;
     clear: both;
 }
+
 .div1 p {
     padding: 1rem;
     margin: 1rem;
 }
+
+
 .div1 dl {
     padding: 1rem;
     margin: 0;
 }
+
 .div1 dt {
     font-weight: 700;
     font-size: 1.5rem;
@@ -150,18 +139,18 @@ main h2 {
 }
 
 main p {
-    background-color: #074B40; /*on the index page, this is the text describing the headers*/
+    background-color: #1fbf84; /*on the index page, this is the text describing the headers*/
     font-family: "Handjet";
     font-weight: 400;
     font-style: normal;
-    color: whitesmoke;
+    color: #0b362f;
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
 }
 
 body { 
-    background-color: #074B40; /*this controls the color of the line around the edge of the page apparently*/
+    background-color: #1fbf84; /*this controls the color of the line around the edge of the page apparently*/
     font-family: "Handjet";
     font-weight: 300;
     font-style: normal;
@@ -179,7 +168,7 @@ figure.index {
 
 /*navigation stuff*/
 nav {
-    background-color: #074B40;
+    background-color: #1fbf84;
     text-align: center;
 
 }
@@ -219,7 +208,7 @@ dl {
     max-width: 800px;
 }
 
-/*About Mez page stuff*/
+/*About page stuff*/
 p#aboutme {
     padding: 9rem;
     }
