@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta name="description" content="."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="delivery.css">
+    
+    <meta charset="UTF-8">
+    <title>robot delivery</title></head>
+
+<!--this is due after spring break-->
+<!--beware the moving up a folder thing-->
+
+<main>
+<header></header>
+    <h1>Request a delivery</h1>
+<body>
+    <form method="get" class="myform" action="thanks.html">
+<!--fieldset is like a div, look more up later-->
+    <fieldset>
+       <legend>Customer Information</legend> <!--legend is like a title for the fieldset-->
+        <label>First Name: <input type="submit" value="Send Delivery Request"></label>
+        <label>Last Name: <input type="submit" value="Send Delivery Request"></label>
+        <label>Cell Phone: <input type="tel" name="phone" required placeholder="999-555-1212"></label>
+
+    </fieldset>
+    
+    <fieldset>
+        <legend>Delivery Method</legend>
+        <!--radio buttons are like checkboxes but you can only select one, and you can't deselect-->
+        <label><input type="radio" name="method" value="drone">Drone Delivery (2hrs)</label>
+        <label><input type="radio" name="method" value="cycle">Cycle Delivery (4hrs)</label>
+        <label><input type="radio" name="method" value="robot">Robot Delivery (6hrs)</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Delivery Options</legend>
+        <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>
+        <label><input type="checkbox" name="deck" value="chosen">Deck</label>
+        <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+        <label><input type="checkbox" name="garage" value="chosen">Garage</label>
+        <label>Preferred Delivery Time <select name="time">
+            <option value="morning">Between 7:00am - 11:00am</option>
+            <option value="noon">Between 11:00am - 2:00pm</option>
+            <option value="afternoon">Between 2:00pm - 5:00pm</option>
+            <option value="evening">Between 5:00pm - 8:00pm</option>
+        </select>
+        </label>
+    </fieldset>
+    
+    <label>Comments:<textarea></textarea></label>
+
+    <input type="submit" value="Send Delivery Request">
+    </form>
+    </body>
+    
+    
+    
+    
+    <!--for value don't put submit bc most people dont know what submit means so say "send delivery request" cuz it's more person friendly
+    dr cheney is a nerd and uses myForm but dr [] doesn't like it because it's easy to get wrong
+    most people don't use the get method because it's not secure.
+    
+    we just built a thanks page
+    
+    -->
+</main>
+</html>
