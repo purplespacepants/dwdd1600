@@ -128,7 +128,14 @@ main a {
     background-color: rgba(156,51,53,0.1);
 }
 
-
+.myform [type=submit] {
+    background-color:#43a0b6;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 0 0 0 1vw;
+}
 
 
 
