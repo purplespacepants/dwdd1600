@@ -111,10 +111,22 @@ main a {
     display: block;
 }
 
+.myform [type=text], .myform [type=tel], .myform select, .myform textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
 
+.myform textarea{
+    height: 6rem;
+}
 
-
-
+.myform :required {
+    background-color: rgba(156,51,53,0.1);
+}
 
 
 
