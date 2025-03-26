@@ -47,9 +47,52 @@
     </nav>
 <main>
     
-    <h2 class="handjet-heading2">Stories</h2>
-    <img src="images/storieshomecover.webp" alt="Stories" width="300" height="300">
+    <h2 class="handjet-heading2">lemme draw 4 u</h2>
 
+
+    <form method="get" class="roform" action="thanks.html">
+        <!--fieldset is like a div, look more up later-->
+            <fieldset>
+               <legend>Who are you?? Let's get in touch</legend> <!--legend is like a title for the fieldset-->
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Cell Phone* <input type="tel" name="phone" required placeholder="999-555-1212"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Method</legend>
+                <!--radio buttons are like checkboxes but you can only select one, and you can't deselect-->
+                <label><input type="radio" name="method" value="drone">Drone Flight Delivery (2hrs)</label>
+                <label><input type="radio" name="method" value="cycle">Cycle Delivery (4hrs)</label>
+                <label><input type="radio" name="method" value="robot">Robot Delivery (6hrs)</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>
+                <label><input type="checkbox" name="deck" value="chosen">Deck</label>
+                <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+                <label><input type="checkbox" name="garage" value="chosen">Garage</label>
+            
+            <label>Preferred Delivery Time
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am - 11:00am</option>
+                    <option value="noon">Between 11:00am - 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm - 5:00pm</option>
+                    <option value="evening">Between 5:00pm - 8:00pm</option>
+                </select>
+                </label>
+            </fieldset>
+            
+            <legend><label>Comments:<textarea name="comments"></textarea></label></legend>
+        <br>
+            <input type="submit" value="Send Delivery Request">
+            </form>
+           
 </main>
+
+<footer><p>&copy; Rose Buhrley &bull; 2025</p></footer>
+
 </body>
 </html>
