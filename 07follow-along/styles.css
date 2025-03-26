@@ -1,3 +1,9 @@
+/*prevent problems with different browsers*/
+* {box-sizing: border-box;}
+/**/
+
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -7,6 +13,11 @@ body {
 /* header stuff here */
 header {
     padding: 1rem 2vw;
+    display:flex;
+    align-items: flex-end;
+}
+header div {
+    padding-left: 2vw;
 }
 header h1 {
     margin: 0;
@@ -130,8 +141,15 @@ main a {
     width: 98%;
     height: auto;
 }
-
-
+.hero {
+    width: 100%;
+    margin: 0;
+}
+.hero img {
+    width:100%;
+    height:auto;
+    margin:0;
+}
 
 
 /* footer stuff here */
