@@ -64,6 +64,7 @@ nav .active a {
     font-variation-settings:
         "EDPT" 80,
         "EHLT" 12;
+    text-align: center;    
 }
 .handjet-heading2 {
     font-family: "Handjet", serif;
@@ -205,7 +206,10 @@ dl {
     max-width: 800px;
 }
 
-
+figure.index{
+    display: block;
+    text-align: center;
+}
 
 /*About Me page stuff*/
 p#aboutme {
