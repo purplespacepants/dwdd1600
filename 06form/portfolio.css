@@ -285,7 +285,7 @@ div.gallery figcaption {
 }
 
 .roform [type=text], .roform [type=tel], .roform select, .roform textarea {
-    border: solid 1px #888;
+    border: solid 1px #85ff60;
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
@@ -297,7 +297,7 @@ div.gallery figcaption {
 }
 
 .roform :required {
-    background-color: rgba(156,51,53,0.1);
+    background-color: rgba(137, 51, 156, 0.295);
 }
 
 .roform [type=submit] {

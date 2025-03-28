@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stories</title>
-        <meta name="description" content="Stories written by Zee.">
+        <title>I draw 4 u</title>
+        <meta name="description" content="commission artwork by Zee.">
         <meta name="author" content="Rose Buhrley">
         <link rel="stylesheet" href="portfolio.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,49 +47,57 @@
     </nav>
 <main>
     
-    <h2 class="handjet-heading2">lemme draw 4 u</h2>
+    <h2 class="handjet-heading2">lemme draw your characters!</h2>
 
 
     <form method="get" class="roform" action="thanks.html">
         <!--fieldset is like a div, look more up later-->
-            <fieldset>
-               <legend>Who are you?? Let's get in touch</legend> <!--legend is like a title for the fieldset-->
-                <label>First Name* <input type="text" name="fname" required></label>
-                <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Cell Phone* <input type="tel" name="phone" required placeholder="999-555-1212"></label>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Delivery Method</legend>
-                <!--radio buttons are like checkboxes but you can only select one, and you can't deselect-->
-                <label><input type="radio" name="method" value="drone">Drone Flight Delivery (2hrs)</label>
-                <label><input type="radio" name="method" value="cycle">Cycle Delivery (4hrs)</label>
-                <label><input type="radio" name="method" value="robot">Robot Delivery (6hrs)</label>
-            </fieldset>
+        <fieldset>
+            <legend>Who are you?? Let's get in touch</legend> <!--legend is like a title for the fieldset-->
+            <label>First Name* <input type="text" name="fname" required></label>
+            <label>Last Name* <input type="text" name="lname" required></label>
+            <label>Cell Phone* <input type="tel" name="phone" required placeholder="999-555-1212"></label>
+            <label>Email* <input type="tel" name="email" required placeholder="email@example.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What do ya want?</legend>
+            <label><input type="radio" name="artwork" value="sketch"> Sketch</label>
+            <label><input type="radio" name="artwork" value="shadedsketch"> Shaded Sketch</label>
+            <label><input type="radio" name="artwork" value="fullcolorsketch"> Full Color Sketch</label>
+            <label><input type="radio" name="artwork" value="fulldetail"> Full Color & Detail Illustration</label>
+            <label><input type="radio" name="artwork" value="coloringpage"> Coloring Book Page</label>
+            <label><input type="radio" name="artwork" value="meme"> Crappy MS Paint Meme</label>
+        </fieldset>
+
+
+        <fieldset>
+        <legend>How much of the character?</legend>
+            <select name="artsize">
+                <option value="none">Pick here!</option>
+                <option value="sketch">Bust (head and shoulders!)</option>
+                <option value="halfbody">Half-Body</option>
+                <option value="fullbody">Full-Body</option>
+                <option value="environment">Full-Body and Environment</option>
+            </select>
+        </fieldset>
         
-            <fieldset>
-                <legend>Delivery Options</legend>
-                <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>
-                <label><input type="checkbox" name="deck" value="chosen">Deck</label>
-                <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
-                <label><input type="checkbox" name="garage" value="chosen">Garage</label>
-            
-            <label>Preferred Delivery Time
-                <select name="time">
-                    <option value="none">Please Select</option>
-                    <option value="morning">Between 7:00am - 11:00am</option>
-                    <option value="noon">Between 11:00am - 2:00pm</option>
-                    <option value="afternoon">Between 2:00pm - 5:00pm</option>
-                    <option value="evening">Between 5:00pm - 8:00pm</option>
-                </select>
-                </label>
-            </fieldset>
-            
-            <legend><label>Comments:<textarea name="comments"></textarea></label></legend>
-        <br>
-            <input type="submit" value="Send Delivery Request">
-            </form>
-           
+    
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>
+            <label><input type="checkbox" name="deck" value="chosen">Deck</label>
+            <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+            <label><input type="checkbox" name="garage" value="chosen">Garage</label>
+        </fieldset>
+        
+        
+        <legend><label>Specifications:<textarea name="comments"></textarea></label>
+        Don't worry, you'll be able to tell me more as I create your illustration!</legend>
+    <br>
+        <input type="submit" value="Send Delivery Request">
+        </form>
+        
 </main>
 
 <footer><p>&copy; Rose Buhrley &bull; 2025</p></footer>
