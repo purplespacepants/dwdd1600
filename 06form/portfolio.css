@@ -83,6 +83,7 @@ nav .active a {
         "wght" 500,
         "ELGR" 1,
         "ELSH" 2;
+    text-align: center;
 }
 /*more headings misc*/
 h1 {
@@ -191,7 +192,7 @@ body {
     font-weight: 300;
     font-style: normal;
     color: #092923;
-    text-align: center;
+   
 }
 
 
@@ -228,7 +229,9 @@ figure.about figcaption{
     text-align: center;
     font-size: 1rem;
 }
-
+div.aboutaddr{
+    text-align: center;
+    }
 
 
 /*Gallery page stuff*/
@@ -280,7 +283,7 @@ div.gallery figcaption {
     margin: .5rem;
 }
 
-.roform label, .roform select, .roform [type=text], .roform [type=tel], .myform textarea {
+.roform label, .roform select, .roform [type=text], .roform [type=tel], .roform textarea {
     display: block;
 }
 
@@ -297,7 +300,7 @@ div.gallery figcaption {
 }
 
 .roform :required {
-    background-color: rgba(137, 51, 156, 0.295);
+    background-color: rgba(137, 51, 156, 0.162);
 }
 
 .roform [type=submit] {
@@ -307,8 +310,8 @@ div.gallery figcaption {
     border-radius: 10px;
     color: white;
     margin: 0 0 0 1vw;
+    
 }
-
 
 
 /*and now, the footer!*/
