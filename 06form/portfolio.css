@@ -145,7 +145,6 @@ header span {
     padding: 10px;
     display: flex;
     margin: auto;
-    text-align: left;
     border-style: double;
     border-color: #85ff60;
     font-family: "Handjet";
@@ -299,7 +298,9 @@ div.gallery figcaption {
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
-    font-weight: 200;
+    font-family: "Handjet" sans-serif;
+    font-weight: 500;
+    
 }
 
 .roform textarea{
@@ -311,17 +312,32 @@ div.gallery figcaption {
 }
 
 .roform [type=submit] {
-    background-color:#43a0b6;
+    background-color:#601561;
     border: none;
     padding: 1rem 2rem;
     border-radius: 10px;
     color: white;
     margin: 0 0 0 1vw;
+    font-family: "Handjet";
+    font-size: 1.3rem;
+    font-weight: 500;
     
+}
+#smaller {
+    text-align: left;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: #000000;
+    background-color: #60c2ff;
+    padding: 0;
 }
 
 
+
 /*and now, the footer!*/
-.footer {
+footer {
     clear:both;
+    text-align: center;
 }  
