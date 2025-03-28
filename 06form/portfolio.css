@@ -54,6 +54,7 @@ nav .active a {
     font-variation-settings:
         "EDPT" 80,
         "EHLT" 12;
+    text-align: center;
 }
 .nabla-heading2 {
     font-family: "Nabla", serif;
