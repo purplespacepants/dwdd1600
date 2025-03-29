@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>I draw 4 u</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.PNG">
+        <meta name="description" content="commission artwork by Zee.">
+        <meta name="author" content="Rose Buhrley">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@80&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+    <header class="nabla-heading">Zee Art and Illustration</header>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="stories.html">Stories</a>
+            </li>
+            <li>
+                <a href="aboutme.html">About Me</a>
+            </li>
+            <li class="active">
+                <a href="idraw4u.html">I draw 4 U</a>
+            </li>   
+        </ul>
+    </nav>
+<main>
+    
+    <h2 class="handjet-heading2">lemme draw your characters!</h2>
+
+
+    <form method="get" class="roform" action="thanks.html">
+        <!--fieldset is like a div, look more up later-->
+        <fieldset>
+            <legend>Who are you?? Let's get in touch</legend> <!--legend is like a title for the fieldset-->
+            <label>First Name* <input type="text" name="fname" required></label>
+            <label>Last Name* <input type="text" name="lname" required></label>
+            <label>Cell Phone* <input type="tel" name="phone" required placeholder="999-555-1212"></label>
+            <label>Email* <input type="tel" name="email" required placeholder="email@example.com"></label>
+        </fieldset>
+f
+        <fieldset>
+            <legend>What do ya want?</legend>
+            <label><input type="radio" name="artwork" value="sketch"> Sketch</label>
+            <label><input type="radio" name="artwork" value="shadedsketch"> Shaded Sketch</label>
+            <label><input type="radio" name="artwork" value="fullcolorsketch"> Full Color Sketch</label>
+            <label><input type="radio" name="artwork" value="fulldetail"> Full Color & Detail Illustration</label>
+            <label><input type="radio" name="artwork" value="coloringpage"> Coloring Book Page</label>
+            <label><input type="radio" name="artwork" value="meme"> Crappy MS Paint Meme</label>
+        </fieldset>
+
+
+        <fieldset>
+        <legend>How much of the character?</legend>
+            <select name="roform">
+                <option value="none">Pick here!</option>
+                <option value="sketch">Bust (head and shoulders!)</option>
+                <option value="halfbody">Half-Body</option>
+                <option value="fullbody">Full-Body</option>
+                <option value="environment">Full-Body and Environment</option>
+            </select>
+        </fieldset>
+        
+    
+        <fieldset>
+            <legend>Extras</legend>
+            <label><input type="checkbox" name="sticker" value="chosen">Holographic Sticker</label>
+            <label><input type="checkbox" name="badge" value="chosen">Character ID Badge</label>
+            <label><input type="checkbox" name="wanted" value="chosen">Character Wanted Poster</label>
+            <label><input type="checkbox" name="memed" value="chosen">Character edited into a meme</label>
+        </fieldset>
+        
+        
+        <label>Describe what you want me to draw!<textarea name="comments" placeholder="Example: please draw my D&D bard, playing their lute..."></textarea></label>
+        <p id="smaller">Don't worry, you'll be able to tell me more as I create your illustration!</p>
+    <br>
+        <input type="submit" value="Send Art Request">
+        </form>
+        
+</main>
+
+<footer><p>&copy; Rose Buhrley &bull; 2025</p></footer>
+
+</body>
+</html>
