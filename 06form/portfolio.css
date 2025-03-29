@@ -301,7 +301,7 @@ div.gallery figcaption {
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
-    font-family: "Handjet" sans-serif;
+    font-family: "Handjet", sans-serif;
     font-weight: 500;
     
 }
