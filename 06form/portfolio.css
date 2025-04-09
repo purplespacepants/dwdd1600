@@ -292,11 +292,11 @@ div.gallery figcaption {
     font-weight:400;
 }
 
-.roform label, .roform select, .roform [type=text], .roform [type=tel], .roform textarea {
+.roform label, .roform select, .roform [type=text], .roform [type=tel], .roform [type=email], .roform textarea {
     display: block;
 }
 
-.roform [type=text], .roform [type=tel], .roform select, .roform textarea {
+.roform [type=text], .roform [type=tel], .roform [type=email], .roform select, .roform textarea {
     border: solid 1px #85ff60;
     padding: .3rem;
     width: 250px;
