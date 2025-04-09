@@ -14,6 +14,12 @@ lighter blue
 nav active has their own ones
 */
 
+
+/*here's the stuff that prevents problems with the other browsers*/
+* {box-sizing: border-box;}
+
+
+
 /*navigation stuff*/
 nav {
     background-color: #87D1FF;
