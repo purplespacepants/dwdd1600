@@ -166,6 +166,7 @@ header span {
 /*main stuff*/
 main {
     background-color: #60c2ff;
+    background-image: linear-gradient(to bottom, #60c2ff, white);
     padding: 2rem 0;
 }
 main h1 {
