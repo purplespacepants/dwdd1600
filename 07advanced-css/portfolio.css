@@ -1,18 +1,4 @@
 
-/*which has which color:
-
-sky blue
-    -nabla 
-    -h1 
-    -main
-
-lighter blue
-    -nav
-    -main p
-    -body
-
-nav active has their own ones
-*/
 
 
 /*here's the stuff that prevents problems with the other browsers*/
@@ -21,46 +7,96 @@ nav active has their own ones
 
 
 /*navigation stuff*/
-nav {
-    background-color: #87D1FF;
-    text-align: center;
+/*lil sscreenz*/
+@media only screen and (max-width: 630px) {
+    nav ul{
+        margin: 0;
+        padding: 0, 2vw;
+        list-style-type: none;
+    }
+    nav a{
+        display:block;
+        padding:.8rem;
+        text-decoration:none;
+        font-weight: 500;
+        text-align:center;
+        border-bottom: solid 1px #85ff60
+    }
+    nav.active a{
+        background-color:#7f2981;
+    }
+}
+/*end of media query*/
 
+/*big wide screens*/
+@media only screen and (min-width: 631px) {
+    nav {
+    text-align: center;
+    
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+    nav a {
+        font-size: 2.7rem;
+        text-decoration: none;
+        color: #092923;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+    nav a:hover {
+        background-color: #ffd214;
+    }
+    nav .active a {
+        background-color: #7f2981;
+        color: #ffd214;
+    }
 }
-nav ul {
-    list-style-type: none;
-    padding: 0 2vw;
-    margin: 0;
-    display: flex;
-}
-nav a {
-    font-size: 2.7rem;
-    text-decoration: none;
-    color: #092923;
-    font-weight: 700;
-    display: block;
-    padding: .83rem 2rem;
-}
-nav a:hover {
-    background-color: #ffd214;
-}
-nav .active a {
-    background-color: #7f2981;
-    color: #ffd214;
-}
+/*end of media query*/
+
+
+
+
+
+
 
 
 
 /*custom heading classes*/
 .nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
     font-family: "Nabla", serif;
-    background-color: #60c2ff;
-    font-size: 120px;
+    font-size: 7vw;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "EDPT" 80,
         "EHLT" 12;
     text-align: center;
+    display:flex;
+    align-items: flex-end;
+}
+/*.headerp {
+    font-family: "Nabla", serif;
+    background-color: #60c2ff;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+    display:flex;
+    align-items: flex-end;
+}*/
+header img {
+    align-items: flex-end;
+    padding: 1%;
+    width:100px;
+    height:auto;
 }
 .nabla-heading2 {
     font-family: "Nabla", serif;
@@ -96,7 +132,6 @@ nav .active a {
 /*more headings misc*/
 h1 {
     margin: 1rem 0;
-    background-color: #60c2ff;
     letter-spacing: .5px;
     font-family: "Nabla";
     font-weight: 400;
@@ -112,6 +147,11 @@ header span {
     color: #092923;
     letter-spacing: .5px;
 }
+
+/*header div {
+    padding-left: 2vw;
+}*/
+
 
 
 /* this is a text box i made */
@@ -165,9 +205,8 @@ header span {
 
 /*main stuff*/
 main {
-    background-color: #60c2ff;
-    background-image: linear-gradient(to bottom, #60c2ff, white);
     padding: 2rem 0;
+    
 }
 main h1 {
     font-size: 2.5rem;
@@ -183,7 +222,6 @@ main h2 {
     /*is in the blue background*/
 }
 main p {
-    background-color: #87D1FF; /*on the index page, this is the text describing the headers*/
     font-family: "Handjet";
     font-weight: 400;
     font-style: normal;
@@ -195,12 +233,12 @@ main p {
 
 
 body { 
-    background-color: #87D1FF; /*this controls the color of the line around the edge of the page apparently*/
     font-family: "Handjet";
     font-weight: 300;
     font-style: normal;
     color: #092923;
-   
+    background-image: linear-gradient(to bottom, #60c2ff, white);
+
 }
 
 
@@ -351,3 +389,7 @@ footer {
     clear:both;
     text-align: center;
 }  
+
+header, nav, main, footer{
+    max-width: 64rem;
+}
