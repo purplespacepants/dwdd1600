@@ -13,6 +13,7 @@
         margin: 0;
         padding: 0, 2vw;
         list-style-type: none;
+        background-color: #60c2ff;
     }
     nav a{
         display:block;
@@ -47,6 +48,8 @@
         font-weight: 700;
         display: block;
         padding: .83rem 2rem;
+        background-color: #60c2ff;
+
     }
     nav a:hover {
         background-color: #ffd214;
@@ -78,6 +81,7 @@
     text-align: center;
     display:flex;
     align-items: flex-end;
+    align-items:center;
 }
 /*.headerp {
     font-family: "Nabla", serif;
@@ -264,6 +268,7 @@ figure.about{
     height:auto;
     margin:0;
     padding: 10px;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
 }
 figure.about img {
         width: 100%;
@@ -287,10 +292,12 @@ div.aboutaddr{
 div.gallery {
     display:flex;
     flex-wrap: wrap;
+
 }
 div.gallery figure {
     margin: 2rem;
     padding: 0;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
 }
 div.gallery img {
     max-width: 100%;    /* Ensures images resize within their container */
@@ -322,6 +329,8 @@ div.gallery figcaption {
     text-align: left;
     font-size: 1.3rem;
     clear: both;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+
 }
 
 .roform legend {
@@ -390,6 +399,7 @@ footer {
     text-align: center;
 }  
 
-header, nav, main, footer{
+/*header, nav, main, footer{
     max-width: 64rem;
 }
+*/
