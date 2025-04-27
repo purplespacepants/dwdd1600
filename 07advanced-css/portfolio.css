@@ -425,9 +425,12 @@ figure.stories{
 figure.stories img{
     width:fit-content;
 }
+p#intro {
+    text-align: center;
+}
 p.stories {
-
-  text-align: left;
+    display:block;
+    text-align: left;
 }
 
 /*and now, the footer!*/
