@@ -142,6 +142,30 @@ ul li {
 
 
 
+table.our-activities{
+    width:100%;
+    border-collapse:collapse;
+}
+table.our-activities th{
+    background-color: #3179AF;
+    color: white;
+    padding: .6rem 2%; 
+    text-align: left;
+}
+
+table.our-activities td{
+    color:#54691f;
+    padding: .4rem 2%;
+}
+
+table.our-activities tr:nth-child(odd) {
+    background-color: #eee;
+}
+table.our-activities tr:hover {
+    background: #ddd;
+}
+
+
 
 /* footer stuff here */
 footer {

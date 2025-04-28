@@ -1,0 +1,445 @@
+
+
+
+/*here's the stuff that prevents problems with the other browsers*/
+* {box-sizing: border-box;}
+
+
+
+/*navigation stuff*/
+/*lil sscreenz*/
+@media only screen and (max-width: 630px) {
+    nav ul{
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        background-color: #60c2ff;
+    }
+    nav a{
+        display:block;
+        padding:.8rem;
+        text-decoration:none;
+        font-weight: 500;
+        text-align:center;
+        border-bottom: solid 1px #85ff60
+    }
+    nav.active a{
+        background-color:#7f2981;
+    }
+}
+/*end of media query*/
+
+/*big wide screens*/
+@media only screen and (min-width: 631px) {
+    nav {
+    text-align: center;
+    
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+    nav a {
+        font-size: 2.7rem;
+        text-decoration: none;
+        color: #092923;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+        background-color: #60c2ff;
+
+    }
+    nav a:hover {
+        background-color: #ffd214;
+    }
+    nav .active a {
+        background-color: #7f2981;
+        color: #ffd214;
+    }
+}
+/*end of media query*/
+
+
+
+
+
+
+
+
+
+/*custom heading classes*/
+.nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
+    font-family: "Nabla", serif;
+    font-size: 7vw;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+    display:flex;
+    align-items: flex-end;
+    align-items:center;
+}
+/*.headerp {
+    font-family: "Nabla", serif;
+    background-color: #60c2ff;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+    display:flex;
+    align-items: flex-end;
+}*/
+header img {
+    align-items: flex-end;
+    padding: 1%;
+    width:100px;
+    height:auto;
+}
+h2.nabla-heading2 {
+    font-family: "Nabla", serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+}
+.handjet-heading2 {
+    font-family: "Handjet", serif;
+    font-weight: 500;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
+}
+.handjet-heading3 {
+    font-family: "Handjet", serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
+    text-align: center;
+}
+/*more headings misc*/
+h1 {
+    margin: 1rem 0;
+    letter-spacing: .5px;
+    font-family: "Nabla";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+}
+header span {
+    margin: 0;
+    color: #092923;
+    letter-spacing: .5px;
+}
+
+/*header div {
+    padding-left: 2vw;
+}*/
+
+
+
+/* this is a text box i made */
+.div1 {
+    padding: 10px;
+    display: flex;
+    margin: calc(5vw + 10px); /* Flexible margin based on viewport width . also chatgpt gave me this i'm pretty sure so i take full responsibility for it being here but no responsibility for it being stupid*/
+    text-align: left;
+    border-style: double;
+    border-color: #85ff60;
+    border-radius: 15px 0px 15px 0px;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #0b362f;
+    text-align: left;
+    font-size: 1.5rem;
+    clear: both;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+
+}
+.div1 p {
+    padding: 1rem;
+    margin: 1rem;
+}
+.div1 dl {
+    padding: 1rem;
+    margin: 0;
+}
+.div1 dt {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #601561;
+}
+/* display flex and display flex wrap you gotta add em to the div1 */
+
+/* this is the center aligned version */
+.div2 {
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    border-style: double;
+    border-color: #85ff60;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #092923;
+    text-align: center;
+    font-size: 1.5rem;
+}
+  
+
+
+/*main stuff*/
+main {
+    padding: 2rem 0;
+    
+}
+main h1 {
+    font-size: 2.5rem;
+    color: #092923;
+    font-weight: 700;
+    text-align: center;
+}
+main h2 {
+    font-size: 2rem;
+    color: #092923;
+    font-weight: 700;
+    text-align: center;
+    /*is in the blue background*/
+}
+main p {
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #092923;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+body { 
+    font-family: "Handjet";
+    font-weight: 300;
+    font-style: normal;
+    color: #092923;
+    background-image: linear-gradient(to bottom, #60c2ff, white);
+
+}
+
+dl {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+figure.index{
+    display: block;
+    text-align: center;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+    max-width: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure.index img{
+    align-items: center;
+}
+/*figure.index figcaption{
+}*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+
+
+/*About Me page stuff*/
+p#aboutme {
+    padding: 9rem 2rem;
+    }
+figure.about{
+    float:right;
+    height:auto;
+    margin:0;
+    padding: 10px;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+}
+figure.about img {
+        width: 100%;
+        height: auto;
+        margin:0;
+    }
+figure.about figcaption{
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #092923;
+    text-align: center;
+    font-size: 1rem;
+}
+div.aboutaddr{
+    text-align: center;
+    }
+
+
+/*Gallery page stuff*/
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+div.gallery figure {
+    margin: 2rem;
+    padding: 0;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+}
+div.gallery img {
+    max-width: 100%;    /* Ensures images resize within their container */
+    height: auto;       /* Maintains aspect ratio */  
+}
+div.gallery figcaption {
+    font-family: "Handjet";
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+/*the commission form!!!!!------------*/
+
+
+
+.roform fieldset {
+    margin-bottom: 1rem;
+    text-align:left;
+    padding: 10px;
+    border-style: double;
+    border-color: #85ff60;
+    border-radius: 15px 0px 15px 0px;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    font-size: 1.3rem;
+    clear: both;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+
+}
+
+.roform legend {
+    color:#000000;
+    font-size: 1.5rem;
+    font-weight:400;
+}
+
+.roform label {
+    margin: .5rem;
+    color:#000000;
+    font-size: 1.5rem;
+    font-weight:400;
+}
+
+.roform label, .roform select, .roform [type=text], .roform [type=tel], .roform [type=email], .roform textarea {
+    display: block;
+}
+
+.roform [type=text], .roform [type=tel], .roform [type=email], .roform select, .roform textarea {
+    border: solid 1px #85ff60;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Handjet", sans-serif;
+    font-weight: 500;
+    
+}
+
+.roform textarea{
+    height: 6rem;
+}
+
+.roform :required {
+    background-color: rgba(137, 51, 156, 0.162);
+}
+
+.roform [type=submit] {
+    background-color:#601561;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 0 0 0 1vw;
+    font-family: "Handjet";
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+#smaller {
+    text-align: left;
+    font-family: "Handjet";
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: #000000;
+    background-color: #60c2ff;
+    padding: 0;
+}
+
+/*stories page stuff*/
+figure.stories{
+    display: block;
+    text-align: center;
+    box-shadow: rgba(34, 11, 65, 0.436) 0px 4px 12px;
+    max-width: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure.stories img{
+    width:fit-content;
+}
+p#intro {
+    text-align: center;
+}
+p.stories {
+    display:block;
+    text-align: left;
+}
+
+/*and now, the footer!*/
+footer {
+    clear:both;
+    text-align: center;
+}  
+
+/*header, nav, main, footer{
+    max-width: 64rem;
+}
+*/
