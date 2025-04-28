@@ -315,6 +315,33 @@ h3.maps{
     align-items: center;
 }*/
 
+table.favorite{
+    width:100%;
+    border-collapse:collapse;
+}
+table.favorite th{
+    background-color: #601561;
+    color: white;
+    padding: .6rem 2%; 
+    text-align: left;
+}
+table.favorite td {
+    color: #092923;
+    padding: .4rem 2%;
+}
+
+table.favorite tr:nth-child(even) {
+    background-color: #60c2ff;
+}
+table.favorite tr:hover {
+    background: #ffeb93;
+}
+
+
+
+
+
+
 /*Gallery page stuff*/
 div.gallery {
     display:flex;
@@ -423,6 +450,7 @@ div.gallery figcaption {
 p a {
     color:#008830;
 }
+
 
 
 
