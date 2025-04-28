@@ -307,7 +307,13 @@ figure.about figcaption{
 div.aboutaddr{
     text-align: center;
     }
-
+h3.maps{
+    text-align: center;
+}
+/*iframe.map {
+    display:block;
+    align-items: center;
+}*/
 
 /*Gallery page stuff*/
 div.gallery {
@@ -329,8 +335,8 @@ div.gallery figcaption {
     font-weight: 400;
     font-size: 1.3rem;
     text-align: center;
-
 }
+
 
 /*the commission form!!!!!------------*/
 
@@ -411,6 +417,14 @@ div.gallery figcaption {
     background-color: #60c2ff;
     padding: 0;
 }
+
+
+
+p a {
+    color:#008830;
+}
+
+
 
 /*stories page stuff*/
 figure.stories{
